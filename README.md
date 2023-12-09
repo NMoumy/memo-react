@@ -1,64 +1,67 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=10300085)
-# TP #1 : Produire une application Web avec des composants `React` modulaires et intégrant des effets d’animation.
-## Travail d'équipe permis (mais pas plus de 2 personnes par équipe).
+# Gestionnaire de Tâches React
 
->Si vous travaillez en équipe, les deux personnes doivent accepter les fichiers du TP sur *GitHub Classroom*.
+Bienvenue dans mon Gestionnaire de Tâches React, une application web monopage (SPA) simple et efficace pour organiser votre liste de tâches. Cette application est conçue pour offrir une expérience utilisateur fluide tout en mettant l'accent sur la modularité et l'adaptabilité.
 
->Vous travaillez ensuite chacun.e sur votre version de code, que ce soit dans l'environnement nuagique `Codespaces` ou localement (ou une combinaison des deux, en autant que vous faites vos fusions et synchronisations du code correctement).
+## Fonctionnalités Principales
 
->Divisez le travail dans l'équipe de façon à simplifier/faciliter ces fusions (expérimentez, c'est le moment idéal !)
+- **Modularité et Adaptabilité :**
+  - Structure modulaire pour une gestion facile et l'ajout de nouvelles fonctionnalités.
+  - Conception adaptative pour une expérience utilisateur optimale sur tous les dispositifs.
 
-## Objectif/exigences généraux
-* Vous créez une application `React` monopage pour gérer une liste de **tâches à compléter**. Votre application doit être modulaire, adaptative (*mobile first*), visuellement attrayante et comportant des effets d'animation pertinents à l'interactivité de l'IU
+- **Gestion de la Sauvegarde Côté Client :**
+  - Les tâches sont sauvegardées côté client grâce à l'API Storage de JavaScript.
+  - Vos données sont préservées même lorsque vous fermez l'application.
 
-* Pour ce TP, vous gérez la *sauvegarde* des tâches *côté client* à l'aide de l'API `Storage` de JavaScript
+- **Stylisation avec Sass :**
+  - Utilisation de Sass pour structurer le CSS et garantir une gestion claire des styles.
+  - Design attrayant pour une expérience visuelle agréable.
 
-* Utilisez `Sass` pour produire votre code `CSS` : un fichier par composant SVP ! 
+- **Composants React Fonctionnels :**
+  - Composants React fonctionnels pour un code clair et compréhensible.
+  - Approche réactive pour une expérience utilisateur fluide.
 
-* Les composants `React` doivent utiliser la syntaxe *fonctionnelle* (la seule que nous avons vu en classe)
+- **Code Déclaratif :**
+  - Le code est écrit de manière déclarative pour une meilleure compréhension.
+  - Focalisation sur l'expression des intentions plutôt que sur des instructions impératives.
 
-* Préférez le code *déclaratif* (ou *fonctionnel*, ou *expressif*) au lieu du code *impératif* partout où c'est possible : on en parle en classe
+## Gestion des Tâches Simplifiée
 
-## Étapes à suivre
-1. Cliquez le bouton *Open in GitHub Codespaces* ou si vous préférez, *clonez* le dépôt sur votre machine locale
+- **Affichage Dynamique :**
+  - Consultez votre liste de tâches dynamique avec des détails complets.
+  - Identifiant, texte, date et état de chaque tâche sont visibles en un coup d'œil.
 
-2. Un gabarit CRA est déjà fourni : installez les modules de base de l'appli (ou laissez le temps à `Codespaces` de finir l'installation :wink:)
+- **Interactivité :**
+  - Ajoutez, supprimez, et basculez entre les états des tâches avec facilité.
+  - Utilisez des filtres pour organiser votre liste selon vos besoins.
 
-3. Installez les autres *modules* au fur et à mesure qu'ils sont requis dans votre solution
+- **Statistiques des Tâches :**
+  - Consultez le nombre de tâches actives pour suivre votre progression.
+  - Supprimez toutes les tâches complétées en un clic.
 
-4. Commencez par produire la structure, le contenu et le format des composants statiques de l'interface utilisateur ; l'interface minimale et l'interactivité sont illustrées dans la démo jointe au bas de ces instructions (image `gif` animée), cependant la conception graphique et la mise en page peuvent (et idéalement devraient) être complètemenmt différents ; n'oubliez pas de personnaliser les `title`, `meta/description`, et `favicon` de votre page Web
+## Animations pour une Expérience Ludique
 
-5. Utilisez des composants IU d’une librairie externe au besoin (par exemple `MUI`, comme dans la démo)
+- **Expérience Utilisateur Améliorée :**
+  - Des animations subtiles ajoutent une touche ludique lors de l'interaction.
+  - Trois animations pour une expérience visuelle agréable.
 
-6. Produisez les fonctionnalités requises par l'interactivité de votre application : 
-    1. Afficher la liste des tâches à partir de `localStorage` 
-       (pour chaque tâche, vous voulez gérer les caractéristiques suivantes : *identifiant*, *texte*, *date et heure d'ajout*, *état* ou *statut* de la tâche : est-elle complétée ou encore active ?)
+## Comment Utiliser
 
-       (suggestion 1 : utilisez un tableau JavaScript pour stocker la liste des tâches)
-       
-       (suggestion 2 : vous avez besoin de générer des identifiants uniques pour chaque tâche, ce n'est pas trivial, faites une recherche ou venez en classe pour un exemple)
-    2. Ajouter une tâche
-    3. Supprimer une tâche
-    4. Basculer l’état d’une tâche (complétée/non-complétée) 
-    5. Filtrer des tâches (toutes, complétées, actives)
-    6. Afficher le nombre de tâches actives (c'est à dire *non-complétées*)
-    7. Supprimer toutes les tâches complétées
-    8. Sauvegarder les tâches dans `localStorage`
+1. **Installation :**
+   - Clonez ce dépôt sur votre machine locale.
 
-7. Produisez au minimum trois animations ou effets de transition de l'interactivité d'interface utilisateur : 
-    1. Lors de l'affichage d'une nouvelle tâche
-    2. Lors du retrait d'une tâche 
-    3. Lors du basculement de l'état d'une tâche
+2. **Installation des Dépendances :**
+   - Exécutez `npm install` pour installer les dépendances.
 
-8. Synchronisez votre solution complétée avec le dépôt GitHub qui vous a été assigné lorsque vous avez accepté le travail (c'est le dépôt distant (*remote*) déjà défini dans votre projet)
+3. **Démarrage de l'Application :**
+   - Exécutez `npm start` pour démarrer l'application en mode développement.
 
-9. :bangbang: :warning: :x: NON, NON, et NON : pour ce travail, **NE DÉPLOYEZ PAS** votre solution sur `GitHub Pages` (sinon, risque de plagiat) :bangbang: :warning: :x:
+4. **Exploration :**
+   - Ouvrez l'application dans votre navigateur à l'adresse [http://localhost:3000].
 
-### Gardez une copie personnelle de votre travail : le dépôt de remise sur `582-4PA` sera supprimé une fois la correction complétée et les notes publiées.
+5. **Utilisation :**
+   - Ajoutez, supprimez, et gérez vos tâches avec facilité.
 
----
+## Auteurs
 
-<img src="https://i.imgur.com/OnNh9BG.gif" alt="demo de la solution" title="Démo de la solution - fichier Gif animé">
-# memo
-# memo
-# memo-react
+- Moumy Ndiaye
+
