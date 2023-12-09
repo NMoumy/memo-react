@@ -8,6 +8,7 @@
     "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.12",
     "framer-motion": "^10.5.0",
+    "gh-pages": "^6.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -33,5 +34,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://nmoumy.github.io/memo-react/"
+  "homepage": "https://nmoumy.github.io/memo/"
 }
