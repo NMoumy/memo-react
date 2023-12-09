@@ -1,0 +1,19 @@
+.NombreTache {
+  background-color: #315b75;
+  border-top: 1px solid #f1faee;;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-size: 2rem;
+    color: #f1faee;
+    display: inline;
+  } 
+
+}

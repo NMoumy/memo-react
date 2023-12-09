@@ -1,0 +1,26 @@
+.FrmTache {
+  form {
+    display: flex;
+
+    input {
+      padding: 10px 20px 10px 20px;
+      width: 50vw;
+      border: 1px solid #457b9d;;
+      background-color: white;
+      color: #1d3557;
+      border-radius: 0;
+    }
+    input:focus {
+      outline: none;
+    }
+
+    .btn-ajouter {
+      padding: 10px 20px 10px 20px;
+      border-radius: 0;
+      border: 1px solid #457b9d;
+      background-color: #457b9d;    
+      font-size: 1rem;
+      color: white;
+    }
+  }
+}

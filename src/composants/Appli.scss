@@ -1,0 +1,15 @@
+.Appli {
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  min-height: 100vh;
+  
+  .contenu-principal {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+  }
+
+}

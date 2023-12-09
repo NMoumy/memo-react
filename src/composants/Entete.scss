@@ -1,0 +1,70 @@
+.Entete {
+  color: #457b9d;
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    background-color: #f1faee;
+  }
+
+  .gestion-site {
+    display: flex;
+
+    button {
+      flex-grow: 1;
+      padding: 15px 0 15px 0;
+      border: none;
+      color: rgb(255, 255, 255);
+      background-color: white;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: all 0.5s ease;
+
+      &:hover {
+        background-color: rgb(255, 255, 255);
+      }
+
+      @media screen and (min-width: 500px) {
+        font-size: 1.2rem;
+      }
+    }
+    
+    .btn-toute {
+      background-color: #a8dadc;
+      border: 1px solid #a8dadc;
+
+      &:hover {
+        color: #a8dadc;
+      }
+    }
+
+    .btn-complete {
+      background-color: #457b9d;
+      border: 1px solid #457b9d;
+
+      &:hover {
+        color: #457b9d;
+      }
+    }
+
+    .btn-actives {
+      background-color: #1d3557;
+      border: 1px solid #1d3557;
+
+      &:hover {
+        color: #1d3557;
+      }
+    }
+
+    .btn-supprimer {
+      background-color: #e63946;
+      border: 1px solid #e63946;
+
+      &:hover {
+        color: #e63946;
+      }
+    }
+
+  }
+  
+}
