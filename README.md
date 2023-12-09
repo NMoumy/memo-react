@@ -41,8 +41,8 @@ Bienvenue dans mon Gestionnaire de Tâches React, une application web monopage (
 ## Animations pour une Expérience Ludique
 
 - **Expérience Utilisateur Améliorée :**
-  - Des animations subtiles ajoutent une touche ludique lors de l'interaction.
-  - Trois animations pour une expérience visuelle agréable.
+  - Les animations subtiles ajoutent une touche ludique lors de l'interaction.
+  - Les animations donnent une expérience visuelle agréable.
 
 ## Comment Utiliser
 
